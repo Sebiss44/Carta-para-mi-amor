@@ -22,7 +22,7 @@ body {
 #mensaje {
     font-size: 24px;
     color: #ffccff;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 2s;
 }
 
