@@ -1,0 +1,45 @@
+/* 🌸 Fondo lindo */
+body {
+    background-image: url('TU-IMAGEN.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    padding: 50px;
+}
+
+/* 💌 Caja de la carta */
+.carta {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* 📜 Efecto en el mensaje */
+#mensaje {
+    font-size: 24px;
+    color: #ffccff;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+/* ✨ Botón mágico */
+#boton {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+#boton:hover {
+    background-color: #ff3385;
+    box-shadow: 0 0 10px #ff3385;
+}
